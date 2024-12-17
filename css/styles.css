@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-img {
+    box-sizing: border-box;
+    background-image: url("/images/bg-image.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    padding: 40px;
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-register {
+    width: 529px;
+    height: auto;
+    background-color: #181A1C;
+    padding: 40px;
+    color: #fff;
+}
+
+.navbar-form {
+    text-align: center;
+    margin: auto;
+}
+
+.chill-logo {
+    width: 163px;
+    height: 44px;
+    display: block;
+    margin: auto;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 12px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: transparent;
+    border-radius: 50px;
+    text-indent: 5px;
+    color: #9D9EA1;
+  }
+
+.highlight {
+    margin: 0;
+    color: #9D9EA1;
+}
+
+.register-button {
+    width: 100%;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    padding: 14px 20px;
+    background-color: #3D4142;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.highlight-center {
+    text-align: center;
+}

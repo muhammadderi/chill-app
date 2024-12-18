@@ -94,3 +94,38 @@ input[type=text], input[type=password] {
     color: #fff;
     border: 1px solid #ccc;
 }
+
+.login-link a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.password-container {
+    margin-bottom: 15px;
+    
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 10px;
+    padding: 14px 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+}
+
+.eye-icon img {
+    width: 13px;
+}

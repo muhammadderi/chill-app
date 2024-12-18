@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: "Lato", serif;
 }
 
 .background-img {
@@ -50,6 +53,10 @@ input[type=text], input[type=password] {
     color: #9D9EA1;
   }
 
+  form label {
+    line-height: 25.2px;
+  }
+
 .highlight {
     margin: 0;
     color: #9D9EA1;
@@ -67,4 +74,23 @@ input[type=text], input[type=password] {
 
 .highlight-center {
     text-align: center;
+    padding-bottom: 10px;
+}
+
+.google-icons {
+    width: 18px;
+    height: 18px;
+}
+
+.google-regist {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    padding: 14px 20px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #ccc;
 }

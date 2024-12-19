@@ -20,6 +20,8 @@ body {
     align-items: center;
 }
 
+/* Register */
+
 .form-register {
     width: 529px;
     height: auto;
@@ -95,7 +97,7 @@ input[type=text], input[type=password] {
     border: 1px solid #ccc;
 }
 
-.login-link a {
+.login-link a, .register-link a {
     color: #fff;
     text-decoration: none;
 }
@@ -128,4 +130,59 @@ input[type=text], input[type=password] {
 
 .eye-icon img {
     width: 13px;
+}
+
+/* Login */
+
+.login-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* home-page */
+
+#home-body {
+    background-color: #181A1C;
+}
+
+
+.home-header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.home-header nav a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.chill-home {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.chill-home img {
+    width: 103.55px;
+}
+
+.user-icon {
+    display: flex;
+    align-items: center;
+}
+
+.user-icon img {
+    width: 40px;
+    border-radius: 50px;
+}
+
+.arrow-icons {
+    width: 14px !important;
+    height: 14px !important;
+    position: relative !important;
+    left: 7px !important;
 }

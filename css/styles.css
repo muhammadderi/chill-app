@@ -64,6 +64,7 @@ form label {
 
 .highlight {
   margin: 0;
+  margin-bottom: 20px;
   color: #9d9ea1;
 }
 
@@ -106,10 +107,6 @@ form label {
   text-decoration: none;
 }
 
-.password-container {
-  margin-bottom: 15px;
-}
-
 .input-wrapper {
   position: relative;
   display: flex;
@@ -118,7 +115,6 @@ form label {
 
 .input-wrapper input {
   width: 100%;
-  padding: 10px;
   padding: 14px 20px;
   border: 1px solid #ccc;
   border-radius: 50px;
@@ -134,12 +130,21 @@ form label {
   width: 13px;
 }
 
+.register-link {
+  margin: 0;
+}
+
 /* Login */
 
 .login-question {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.login-question p {
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 /* home-page */
@@ -293,7 +298,8 @@ form label {
 
 .chill-section2,
 .chill-section3,
-.chill-section4 {
+.chill-section4,
+.chill-section5 {
   box-sizing: border-box;
   color: #fff;
   font-weight: 700;
@@ -377,7 +383,8 @@ form label {
 
 /* section 3 */
 .chill-section3-movie,
-.chill-section4-movie {
+.chill-section4-movie,
+.chill-section5-movie {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -386,7 +393,8 @@ form label {
 }
 
 .movielist-section3,
-.movielist-section4 {
+.movielist-section4,
+.movielist-section5 {
   position: relative;
 }
 
@@ -397,12 +405,14 @@ form label {
 }
 
 .movielist-section3 img:hover,
-.movielist-section4 img:hover {
+.movielist-section4 img:hover,
+.movielist-section5 img:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
-.movielist-section3 button {
+.movielist-section3 button,
+.movielist-section5 button {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -442,7 +452,8 @@ form label {
 
 /* section 4  */
 
-.movielist-section4 img {
+.movielist-section4 img,
+.movielist-section5 img {
   width: 234px;
   height: 365px;
   display: block;
@@ -465,4 +476,120 @@ form label {
   text-align: center;
   display: flex;
   align-items: center;
+}
+
+/* footer */
+footer {
+  height: 284px;
+  padding: 60px 80px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-header {
+  padding: 20px 0;
+}
+
+.footer-header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.4px;
+}
+
+.footer-header h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+  color: #c1c2c4;
+  box-sizing: border-box;
+  width: 514;
+  gap: 28px;
+}
+
+.footer-right p {
+  display: flex;
+  gap: 13px;
+  color: #c1c2c4;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0.2px;
+}
+
+.footer-right h3 {
+  padding: 20px 0 0 0;
+}
+
+/* Responsive Login */
+
+@media (max-width: 360px) and (max-height: 709px) {
+  .form-register {
+    width: 306px;
+    min-height: 384px;
+    padding: 24px;
+  }
+
+  .chill-logo {
+    width: 94px;
+    height: 24px;
+  }
+
+  .form-register h1 {
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+  }
+
+  .form-register p {
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  .form-input label {
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  .form-input input {
+    padding: 8.09px 11.55px;
+  }
+
+  .form-input input::placeholder {
+    font-size: 9.24px;
+  }
+
+  .login-question {
+    padding: 0;
+    margin: 0;
+  }
+
+  .login-choice button {
+    padding: 8.09px 11.55px;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  .login-choice img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .highlight-center {
+    margin: 0;
+  }
+
+  .register-link {
+    margin: 0;
+  }
 }

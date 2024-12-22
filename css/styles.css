@@ -292,7 +292,8 @@ form label {
 /* section 2 */
 
 .chill-section2,
-.chill-section3 {
+.chill-section3,
+.chill-section4 {
   box-sizing: border-box;
   color: #fff;
   font-weight: 700;
@@ -375,7 +376,8 @@ form label {
 }
 
 /* section 3 */
-.chill-section3-movie {
+.chill-section3-movie,
+.chill-section4-movie {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -383,7 +385,8 @@ form label {
   position: relative;
 }
 
-.movielist-section3 {
+.movielist-section3,
+.movielist-section4 {
   position: relative;
 }
 
@@ -393,7 +396,8 @@ form label {
   display: block;
 }
 
-.movielist-section3 img:hover {
+.movielist-section3 img:hover,
+.movielist-section4 img:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
@@ -434,4 +438,31 @@ form label {
 
 .arrow-right {
   left: 1320px;
+}
+
+/* section 4  */
+
+.movielist-section4 img {
+  width: 234px;
+  height: 365px;
+  display: block;
+}
+
+.section4-top10 {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  bottom: 0;
+  width: 31px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #b71f1d;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }

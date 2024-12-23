@@ -83,7 +83,7 @@ body {
 
 .chill-section1 div article {
   position: relative;
-  width: 668px;
+  width: 1280px;
 }
 
 .chill-section1 div article h1 {
@@ -113,14 +113,22 @@ body {
 
 .container-btn-home {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   gap: 10px;
+}
+
+.container-btn-collect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .container-btn-information {
   display: flex;
   gap: 20px;
+  align-items: center;
 }
 
 .muted-speaker {
@@ -453,7 +461,7 @@ footer {
   }
 
   .chill-section1-box {
-    padding: 0 10px;
+    padding: 0 10px !important;
   }
 
   .chill-section1 h1 {
@@ -468,12 +476,12 @@ footer {
 
   .chill-section1 div article h1,
   .chill-section1 div article p {
-    top: 50px;
+    top: 90px;
   }
 
   .chill-section1 div article button,
   .chill-section1 div article span {
-    top: 50px;
+    top: 90px;
   }
 
   .start-btn-home {
@@ -498,5 +506,32 @@ footer {
     height: 25px;
     font-size: 12px;
     padding: 1px;
+  }
+
+  .chill-section1 div article {
+    width: 360px;
+  }
+
+  .chill-section1 div article p {
+    font-size: 12px;
+    line-height: 16.8px;
+  }
+
+  .muted-speaker {
+    width: 24px;
+    height: 25px;
+  }
+
+  .muted-speaker img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .chill-section1-box {
+    padding: 0 40px;
+    height: 100%;
+    /* position: absolute;
+    top: -80px;
+    height: 300px; */
   }
 }

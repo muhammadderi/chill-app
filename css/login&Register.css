@@ -76,6 +76,11 @@ form label {
   background-color: #3d4142;
   color: #fff;
   border-radius: 50px;
+  font-size: 16px;
+}
+
+.google-regist {
+  font-size: 16px;
 }
 
 .highlight-center {

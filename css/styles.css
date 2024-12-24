@@ -459,24 +459,34 @@ footer {
     padding: 20px;
   }
 
+  
   .chill-section1-box {
     padding: 0 !important;
+    width: 360px;
   }
-
+  
+  /* .chill-section1-box article {
+    width: 360px !important;
+  } */
   .chill-section1 h1 {
     font-size: 24px !important;
     margin: 0;
     padding: 0;
+    width: 360px;
   }
 
   .chill-section1-box p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
     font-size: 12px !important;
     width: 320px;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .container-btn-collect {
+    width: 260px;
   }
 
   .muted-speaker {
@@ -587,4 +597,43 @@ footer {
     width: 95.6px;
     height: 143.39px;
   }
+  
+  footer {
+    width: 360px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px !important;
+  }
+  
+  .footer-header {
+    flex-direction: row;
+    padding: 0 !important;
+  }
+  
+  .footer-header img {
+    width: 84px;
+    height: 24.75px;
+  }
+  
+  .footer-header p {
+    font-size: 12px;
+  }
+  
+  .footer-main,
+  .footer-right p {
+    display: none;
+  }
+  
+  h3::after {
+    content: " >"; /* Panah kanan */
+    font-weight: bold;
+    font-size: 14px; /* Ukuran font */
+    color: inherit; /* Warna mengikuti teks */
+  }
+  
+  h3 {
+    display: inline-block;
+    margin: 0; /* Atur margin sesuai kebutuhan */
+  }
+  
 }

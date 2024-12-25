@@ -10,6 +10,13 @@ body {
 
 /* home-page */
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #181a1c;
+}
+
 #home-body {
   background-color: #181a1c;
 }
@@ -421,7 +428,7 @@ footer {
 /* Responsive Login */
 @media (max-width: 360px) and (max-height: 709px) {
   body {
-    width: 360px;
+    width: 360px !important;
     min-height: 1476px;
   }
 

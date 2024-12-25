@@ -111,7 +111,8 @@ form label {
 }
 
 .login-link a,
-.register-link a {
+.register-link a,
+.login-choice a {
   color: #fff;
   text-decoration: none;
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Chill App</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <div class="background-img">
+      <div class="form-register">
+        <div class="navbar-form">
+          <img
+            src="images/logo-chill.png"
+            alt="chill-logo"
+            class="chill-logo"
+          />
+          <h1>Masuk</h1>
+          <p>Selamat Datang Kembali!</p>
+        </div>
+        <form class="form-input">
+          <label for="username"> Username </label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Masukkan Username"
+            required
+          />
+          <div class="password-container">
+            <label for="password">Kata Sandi</label>
+            <div class="input-wrapper">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Kompleksitas katasandi dengan Panjang minimal 8 karakter, huruf besar, kecil, angka dan simbol"
+                placeholder="Masukkan Kata Sandi"
+                required
+              />
+              <span id="showHide" class="eye-icon"
+                ><img src="/images/eye-password.png"
+              /></span>
+            </div>
+          </div>
+
+          <div class="login-choice">
+            <div class="option-account">
+              <p class="highlight">
+                Belum punya akun?
+                <span class="login-link"
+                  ><a href="./register.html">Daftar</a></span
+                >
+              </p>
+              <p><a href="./forgotPassword.html">Lupa Kata Sandi</a></p>
+            </div>
+            <button type="submit" class="register-button">Masuk</button>
+            <p class="highlight highlight-center">Atau</p>
+            <button type="button" class="google-regist" id="btnGoogle">
+              <span
+                ><img class="google-icons" src="/images/google-icons.png"
+              /></span>
+              Masuk dengan Google
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="/js/login.js"></script>
+  </body>
+</html>

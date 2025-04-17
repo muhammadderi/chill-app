@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", serif;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.background-img {
+  box-sizing: border-box;
+  background-image: url("/images/bg-image.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px;
+  display: flex;
+  gap: 37px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Register */
+
+.form-register {
+  width: 529px;
+  height: auto;
+  background-color: #181a1c;
+  padding: 40px;
+  color: #fff;
+}
+
+.navbar-form {
+  text-align: center;
+  margin: auto;
+}
+
+.chill-logo {
+  width: 163px;
+  height: 44px;
+  display: block;
+  margin: auto;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 12px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: transparent;
+  border-radius: 50px;
+  text-indent: 5px;
+  color: #9d9ea1;
+}
+
+form label {
+  line-height: 25.2px;
+}
+
+.highlight {
+  margin: 0;
+  margin-bottom: 20px;
+  color: #9d9ea1;
+}
+
+.register-button {
+  width: 100%;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  padding: 14px 20px;
+  background-color: #3d4142;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+.register-button:hover,
+.google-regist:hover {
+  color: #3d4142;
+  background-color: #fff;
+}
+
+.google-regist {
+  font-size: 16px;
+}
+
+.highlight-center {
+  text-align: center;
+}
+
+.highlight-center p {
+  margin: 0;
+  padding: 0;
+}
+
+.google-icons {
+  width: 18px;
+  height: 18px;
+}
+
+.google-regist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 14px 20px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #ccc;
+}
+
+.login-link a,
+.register-link a,
+.login-choice a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 14px 20px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.eye-icon img {
+  width: 13px;
+}
+
+.register-link {
+  margin: 0;
+}
+
+/* Login */
+
+.login-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-question p {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+/* Register */
+@media (max-width: 360px) and (max-height: 709px) {
+  .form-register {
+    width: 306px;
+    min-height: 384px;
+    padding: 24px;
+  }
+
+  .chill-logo {
+    width: 94px;
+    height: 24px;
+  }
+
+  .form-register h1 {
+    font-size: 18px;
+    line-height: 25.2px;
+    letter-spacing: 0.2px;
+  }
+
+  .form-register p {
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  .form-input label {
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  .form-input input {
+    padding: 8.09px 11.55px;
+  }
+
+  .form-input input::placeholder {
+    font-size: 9.24px;
+  }
+
+  .login-question {
+    padding: 0;
+    margin: 0;
+  }
+
+  .login-choice button {
+    padding: 8.09px 11.55px;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  .login-choice img {
+    width: 10px;
+    height: 10px;
+  }
+
+  .highlight-center {
+    padding-bottom: 10px;
+    margin: 0;
+  }
+
+  .register-link {
+    margin: 0;
+  }
+}

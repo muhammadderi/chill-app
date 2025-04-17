@@ -3,6 +3,7 @@ const btnGoogle = document.getElementById("btnGoogle");
 const eyePassword = document.getElementById("password");
 const eyeConfirmPassword = document.getElementById("confirmPassword");
 const eyeShowHide = document.getElementById("showHide");
+const eyeShowHidePassword = document.getElementById("showHidePassword");
 
 eyeConfirmPassword.type = "password";
 eyePassword.type = "password";
@@ -21,7 +22,7 @@ eyeShowHide.addEventListener("click", (e) => {
   }
 });
 
-eyeShowHide.addEventListener("click", (e) => {
+eyeShowHidePassword.addEventListener("click", (e) => {
   e.preventDefault();
 
   if (eyeConfirmPassword.type === "password") {

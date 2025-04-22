@@ -626,6 +626,16 @@ footer {
     top: 20px;
   }
 
+  .movie-scroll-2 {
+    gap: 10px;
+  }
+
+  .movielist-section3 button {
+    width: 44px;
+    height: 14px;
+    font-size: 5px;
+  }
+
   .start-btn-home {
     width: 55px;
     height: 25px;
@@ -716,7 +726,32 @@ footer {
   .movielist-section3 img,
   .movielist-section4 img,
   .movielist-section5 img {
-    width: 230px;
+    width: 95px;
+    height: 145px;
+  }
+
+  .movielist-section3 button,
+  .movielist-section5 button {
+    top: 5px;
+    left: 2px;
+    bottom: 5px;
+    font-size: 5px;
+    width: 50px;
+    padding: 0;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section4-top10 {
+    display: flex;
+    top: 5px;
+    right: 5px;
+    width: 14px;
+    height: 21px;
+    font-size: 6px;
+    line-height: 8px;
   }
 
   footer {

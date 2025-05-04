@@ -12,6 +12,10 @@ const btnRight5 = document.querySelector(".chill-section5 .btn-right");
 const scroll5 = document.querySelector(".chill-section5 .movie-scroll-2");
 const genreClick = document.querySelector(".footer-left h3");
 const bantuanClick = document.querySelector(".footer-right h3");
+const audio = document.getElementById("myAudio");
+const icon = document.getElementById("speakerIcon");
+const button = document.querySelector(".muted-speaker");
+const logout = document.querySelector(".logout");
 
 btnLeft.addEventListener("click", () => {
   movieScroll.scrollBy({ left: -220, behavior: "smooth" });
@@ -64,4 +68,21 @@ bantuanClick.addEventListener("click", function () {
   } else {
     bantuan.style.display = "none";
   }
+});
+
+button.addEventListener("click", () => {
+  if (audio.paused) {
+    audio.play().catch((err) => {
+      console.warn("Play error:", err);
+    });
+  }
+  audio.muted = !audio.muted;
+
+  icon.src = audio.muted ? "/images/speaker.png" : "/images/muted-speaker.png";
+});
+
+logout.addEventListener("click", function () {
+  localStorage.removeItem("userLogin");
+  localStorage.removeItem("users");
+  window.location.href = "/";
 });

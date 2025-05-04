@@ -39,6 +39,12 @@ header {
   font-weight: bold;
 }
 
+.logout {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
 .chill-home {
   display: flex;
   justify-content: space-evenly;
@@ -131,6 +137,10 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#myAudio {
+  display: none;
 }
 
 .background-video {
@@ -814,7 +824,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap:20px;
+    gap: 20px;
     height: 200px;
   }
 
